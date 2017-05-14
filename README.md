@@ -31,7 +31,8 @@ $ ./tlc run your_file -w
 Please see the help.
 
 ```	console
-$ ./tlc --help                                                   This tool is OneTab URL list cleaner
+$ ./tlc --help                                                   
+This tool is OneTab URL list cleaner
 
 Usage:
   tlc [command]
