@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"./cmd"
+	"github.com/uchimanajet7/tlc/cmd"
 )
 
 func main() {
