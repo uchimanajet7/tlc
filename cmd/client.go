@@ -11,7 +11,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-// Client is
+// Client use HTTP access
 type Client struct {
 	EndpointURL *url.URL
 	HTTPClient  *http.Client
@@ -24,6 +24,7 @@ func createClient(endpointURL string, httpClient *http.Client) (*Client, error) 
 		return nil, errors.Wrapf(err, "failed to parse url: %s", endpointURL)
 	}
 
+	// use HTTPS access
 	tr := &http.Transport{
 		TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
 	}
@@ -47,6 +48,7 @@ func (client *Client) createRequest(ctx context.Context, method string, subPath 
 
 	req = req.WithContext(ctx)
 
+	// header imitates Mac Chrome
 	req.Header.Set("Accept", "text/html")
 	req.Header.Set("Accept-Charset", "utf8")
 	req.Header.Set("Content-Type", "text/html")
