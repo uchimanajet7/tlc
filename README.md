@@ -1,5 +1,5 @@
 # tlc
-This tool can clean up the list output from `OneTab` of chrome expansion.
+This tool can clean up the list output from `OneTab` of Google Chrome extension.
 
 see also:
 
@@ -9,7 +9,7 @@ see also:
 ## Description
 `tlc` is the initial letter of the tab list cleaner.
 
-You can delete duplicate URLs and same name from the list output from `OneTab` of Chrome extension. In addition, you can also check whether the URL is accessible at the same time and delete it from the list.
+You can delete duplicate URLs and same name from the list output from `OneTab` of Google Chrome extension. In addition, you can also check whether the URL is accessible at the same time and delete it from the list.
 
 ## Demo
 
