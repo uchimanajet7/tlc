@@ -11,6 +11,11 @@ see also:
 
 You can delete duplicate URLs and same name from the list output from `OneTab` of Chrome extension. In addition, you can also check whether the URL is accessible at the same time and delete it from the list.
 
+## Demo
+
+![](https://user-images.githubusercontent.com/6448792/29307394-abc87114-81dc-11e7-9ef1-7516a639a985.gif)
+
+
 ## Features
 - It is made by golang so it supports multi form.
 - Easy operation just by specifying the file.
