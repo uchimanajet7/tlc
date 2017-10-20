@@ -58,6 +58,8 @@ $ go get github.com/uchimanajet7/tlc
 ## Author
 [uchimanajet7](https://github.com/uchimanajet7)
 
+- OneTab のTabリストを整理するCLI をgolang で作ってみた #golang #onetab - uchimanajet7のメモ 
+	- http://uchimanajet7.hatenablog.com/entry/2017/08/16/120000
 
 ## Licence
 [Apache License 2.0](https://github.com/uchimanajet7/tlc/blob/master/LICENSE)
